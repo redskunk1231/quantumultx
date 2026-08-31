@@ -4,10 +4,9 @@
 
 [rewrite_local]
 
-^https?:\/\/account\.windy\.com\/api\/info url script-response-body WindyProCrack.js
+^https?:\/\/account\.windy\.com\/api\/info url script-response-body https://raw.githubusercontent.com/redskunk1231/quantumultx/refs/heads/main/Windyprocrack.js
 
 [mitm]
 
 hostname = account.windy.com
 
-var ddgksf2013=JSON.parse($response.body);$done({body:JSON.stringify(ddgksf2013={墨鱼手记})});
