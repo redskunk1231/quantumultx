@@ -10,4 +10,4 @@
 
 hostname = account.windy.com
 
-var ddgksf2013=JSON.parse($response.body);$done({body:JSON.stringify(ddgksf2013={真实会员信息})});
+var ddgksf2013=JSON.parse($response.body);$done({body:JSON.stringify(ddgksf2013={墨鱼手记})});
